@@ -1,0 +1,135 @@
+/* default margin and line-height for the body */
+body {
+  margin: 0;
+
+  line-height: 1.5;
+}
+
+/* navigation attributes */
+nav ul {
+  /* navigation box model */
+  margin: 0.5rem;
+  padding: 0;
+  
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  list-style: none;
+  
+  /* navigation flexbox attributes */
+  display: flex;
+  justify-content: center;
+}
+
+/* list attributes */
+li a{
+  /* list box model */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  
+  text-align: center;
+  
+  color: hsl(33, 56%, 18%);
+}
+
+/* navigation hover effects */
+nav li:hover{
+  background-color: hsl(90, 27%, 84%)
+}
+
+/* navigation active links attributes */
+nav li a:active{
+  color: hsl(0, 0%, 100%);
+}
+
+/* header attributes */
+header {
+  font-size: 40px;
+  font-family: 'Rye', cursive;
+  
+  height: 100vh;
+  max-width: 30ch;
+  
+  /* background image attributes */
+  background-image: url(https://picsum.photos/id/584/2000/1500);
+  background-size:cover;
+  background-position: center;
+  
+  /* header text color */
+  color: hsl(0, 53%, 17%);
+  
+  /* header flexbox attributes */
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* heading 1 attributes */
+h1{
+  /* heading 1 box model */
+  margin: 1rem;
+  padding: 1rem;
+  
+  max-height: 195px;
+}
+
+h2{
+  padding: 0.5rem;
+  
+  /* heading 2 typography */
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+/* call to action attributes */
+.cta {
+  /* call to action box model */
+  margin: 1rem;
+  border-radius: 20%;
+  padding: 0.5rem;
+  
+  font-size: 24px;
+  font-family: 'Rye', cursive;
+  
+  /* call to action container colors */
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 97%, 59%);
+}
+
+/* link attribute */
+a {
+  text-decoration: none;
+}
+
+/* call to action hover effect */
+.cta:hover {
+  filter: drop-shadow(0 0 2em hsla(22, 91%, 79%, 0.984));
+}
+
+/* paragraph attributes */
+p{
+  padding: 1rem;
+  
+  /* paragraph typography */
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (width > 44em) {
+
+  header{font-size: 85px;}
+
+  .cta{
+    font-size: 45px;}
+
+  li a{
+    padding-left: 2rem;
+    padding-right: 2rem;}
+
+  nav ul{
+    font-size: 30px;}
+
+  p{
+    font-size: 28px;}
+}
