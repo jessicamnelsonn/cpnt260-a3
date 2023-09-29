@@ -1,7 +1,7 @@
 # CPNT 260 Assignment 3: Hero Section with Call-To-Action
 Author: Jessica Nelson
 
-[Live site]()
+[Live site](https://jessicamnelsonn.github.io/cpnt260-a3/)
 
 
 ## Above and Beyond:
@@ -19,6 +19,8 @@ I chose the following:
 
 ## Documentation
 - A helpful resource that helped you with this assignment;
+    - [Viewport Concepts](https://developer.mozilla.org/en-US/docs/Web/CSS/Viewport_concepts)
     - [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 -	the search term you would use to find this resource again.
     - Flexbox Cheat Sheet
+    - Viewport CSS
